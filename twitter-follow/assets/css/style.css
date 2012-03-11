@@ -1,0 +1,9 @@
+html				{ font-family: "helvetica neue", helvetica, sans-serif; margin: 0; padding: 0; }
+body				{ background: #eef9fd; color: #12638a; margin: 0; padding: 0; }
+
+#container			{ margin: 130px auto; text-align: center; width: 300px; }
+
+.follow				{ font-size: 11px; font-weight: 500; }
+.follow span			{ background: #d6e8f6; background-repeat: repeat-x; background-image: linear-gradient(to bottom, #fff 30%, #d6e8f6 100% ); border: 1px solid #a2cbe8; border-radius: 3px; display: inline-block; margin: 0 2px 0 0; padding: 2px 4px 2px 3px;}
+.follow span:before	{ content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAYAAABPhbxiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZRJREFUeNqEkDssg1Ecxc/9+tGP1iMtWoNXEfGIxFtiFDHYRGIVi+5itonYkIgYGCwS8QiLQRAxkC4NFqEiSJuKV2mrX+u7f7ct1SJxkrvc3N+55xwQEf474xtHNLy4Tcl3Ej41v3dM+EM9M9s0e+jC1aM/5T4Buh4C6J5YprGNQzpyeWMmI5sndK4qkLPy4Lj1oX9qLWHOot9+yTa6SlwNwGpU0NlQjV2Piqd3HbSwCu3Zi8iDB9eTQ+wXGFX95D4FQyp0+kxIikFkEqGIQwu+InLvBvc/oq+lCvLPTjXFFjg9fjBJRtQybq+DlJ4BU4EFdZUWVBaawFYcLupttrFkuGnhlIJh/kkJcQ6uBjFYZ4a9oxzqO0GuLbLCvrBDZVYTKE2Pm5AIEftKULEaJDqGUKGEMdBmQ44if3ecO7igJecV3G/imZINSRjEQAFxMUyriWG6txG5GTr2a1Xfm0brZ3fYunyBT8TUSxwlRhldpdloL8mH2SCn1ElZ9eY5TIZ0MQSLp41ohICqocysZz9H/BBgAFxrzX3hMaCDAAAAAElFTkSuQmCC); display: inline-block; height: 11px; float: left; margin: 2px 3px 0 0; }
+.follow span:hover	{ background-position: 0 -5px;}

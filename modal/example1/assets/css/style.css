@@ -1,0 +1,12 @@
+html				{ background-image: url(../img/dots.gif), linear-gradient(to bottom, #f4cdd2, #cda8c9); height: 100%; margin: 0; }
+body				{ color: #111; font-family: arial, sans-serif; margin: 0; padding: 100px 0; }
+
+#container			{ margin: 50px auto; padding: 0; text-align: center; width: 30%; }
+
+.modal				{ background: #f8f8f8; border-radius: 3px; box-shadow: 0 0 3px rgba(0,0,0,0.25); position: relative; text-align: left; width: 360px; }
+.modal .close		{ background: url(../img/cross.gif); display: block; height: 18px; position: absolute; right: 20px; text-indent: -100em; top: 20px; width: 16px; }
+.modal h2			{ background-image: linear-gradient(to bottom, #f9fafb, #edf1f4); border-radius: 3px 3px 0 0; border-bottom: 1px solid #dee2e4; box-shadow: 0 1px 0 0 #fff; color: #4f849e; font-size: 18px; font-weight: normal; margin: 0; padding: 20px; text-shadow: 0 1px 0 #fff; }
+.modal p				{ color: #6a6a6a; font-size: 13px; margin: 0; padding: 20px 20px 0; }
+.modal .action		{ background: #f0f4f7; border-top: 1px solid #e8eaeb; border-radius: 0 0 3px 3px; margin: 20px 0 0 0; padding: 10px 20px; }
+.modal .action input	{ background: #6ec7dc linear-gradient(to bottom, #83eaf1, #6ec7dc); border: 1px solid #84adaf; border-radius: 2px; box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5); color: #fff; padding: 5px 25px; text-shadow: 0 1px 0 #84adaf; }
+.modal .action input:hover { background-position: 0 -15px; background-repeat: repeat-x; }
